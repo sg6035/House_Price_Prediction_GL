@@ -69,3 +69,8 @@ All python scripts use the configuration.txt file
    
    DockerImage: gaddamsrikanth24/pyspark-models:eval_metrics  
   
+
+
+Docker needs to be run with the volume mounted.  For example:
+
+docker run --mount source=house_prices,destination=/usr/src/app eval_metrics
