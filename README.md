@@ -73,4 +73,4 @@ All python scripts use the configuration.txt file
 
 Docker needs to be run with the volume mounted.  For example:
 
-docker run --mount source=house_prices,destination=/usr/src/app eval_metrics
+docker run --mount source=house_prices,destination=/usr/src/app gaddamsrikanth24/pyspark-models:eval_metrics
